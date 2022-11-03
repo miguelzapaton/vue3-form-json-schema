@@ -2,6 +2,7 @@
 
 ## Changes
 
+* Update **vite 2** to **vite 3**
 * Replace webpack with **vite**
 * Create monorepo with **pnpm** for lib and examples
 * Integration of **turborepo** (really a benefit?)
@@ -30,10 +31,11 @@ Build all packages (lib and examples)
 ...
 
 ### Current issues
-- [ ] Solve Ajv strictTypes console log message
+- [ ] Form rendering on server (SSR) - currently only the outer tag is rendered
 - [ ] Improve turborepo config
 
 ### Solved issues
+- [X] Solve Ajv strictTypes console log message
 - [X] Make example 4 working
 - [x] Bug with required fields (switch case was not null safe) 
 
