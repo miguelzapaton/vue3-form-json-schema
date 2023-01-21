@@ -1,6 +1,6 @@
 {
   "name": "vue3-form-json-schema",
-  "version": "3.0.0-alpha.6",
+  "version": "3.0.0-alpha.7",
   "description": "Vue3 package for using forms with JSON schema",
   "author": "Tobias Järvelöv <tobias@jarvelov.se>",
   "contibutors": [
