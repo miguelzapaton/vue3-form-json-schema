@@ -1,4 +1,4 @@
-import '@oruga-ui/oruga-next/dist/oruga-full.css';
+// import '@oruga-ui/oruga-next/dist/oruga-full.css';
 import { createApp } from 'vue'
 import App from './App.vue'
 import {vfjsPlugin} from 'vue3-form-json-schema';

@@ -1,29 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
-    "preview": "turbo run preview --parallel",
-    "lint": "turbo run lint",
+    "build": "pnpm --stream -r build",
+    "dev": "pnpm --parallel -r dev",
+    "preview": "pnpm --parallel -r preview",
     "build:lib": "pnpm build --filter lib"
   },
   "devDependencies": {
-    "eslint": "^8.32.0",
-    "prettier": "^2.8.3",
-    "turbo": "^1.7.0"
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2"
   },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "eslint-plugin-jsx-a11y",
-        "eslint-plugin-react-hooks",
-        "eslint-plugin-react",
-        "rollup"
-      ]
-    },
-    "overrides": {
-      "minimist": "^1.2.6"
-    }
-  },
-  "packageManager": "pnpm@7.12.2"
+  "packageManager": "pnpm@9.1.1"
 }

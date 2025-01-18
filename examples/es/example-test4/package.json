@@ -1,5 +1,5 @@
 {
-  "name": "example-test1",
+  "name": "example-test4",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@primevue/themes": "^4.2.5",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.2.5",
     "vue": "^3.5.13",
     "vue3-form-json-schema": "workspace:3.0.0-alpha.8"
   },

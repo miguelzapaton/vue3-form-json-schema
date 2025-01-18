@@ -35,7 +35,7 @@ const schema =
         ],
         "properties": {
           "user": {
-  type: 'object',
+          type: 'object',
             required: ['firstName'],
   properties: {
     firstName: {
@@ -53,14 +53,14 @@ const schema =
 };
 const uiSchema = [
   {
-    component: 'o-input',
+    component: 'InputText',
     model: 'allprops.user.firstName',
     fieldOptions: {
       class: ['form-control'],
       on: ['input'],
       props: {
-        type: 'textarea',
-        placeholder: 'I am the o-input component from Oruga!',
+        type: 'text',
+        placeholder: 'I am the InputText component from PrimeVue!',
       },
     },
     errorOptions: {
@@ -70,14 +70,14 @@ const uiSchema = [
     }
   },
   {
-    component: 'o-input',
+    component: 'InputText',
     model: 'allprops.user.lastName',
     fieldOptions: {
       class: ['form-control'],
       on: ['input'],
       props: {
         type: 'text',
-        placeholder: 'I am the o-input component from Oruga!',
+        placeholder: 'I am the InputText component from PrimeVue!',
   },
     },
     }
@@ -107,10 +107,7 @@ function onValidated(value) {
       >An example showing how to use Vue components in
         <code>vue-form-json-schema</code>.
       </span>
-      <span
-      >In this example we use the <code>&lt;o-input&gt;</code> component
-        from Oruga</span
-      >
+      <span>In this example we use the <code>InputText</code> component from PrimeVue</span>
     </p>
     <p>
       <span

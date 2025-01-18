@@ -1,6 +1,15 @@
 # Experimental fork of Vue Form JSON Schema for Vue3
 
-## Changes
+## Changelog
+
+### 3.0.0-alpha.8
+
+* **vite 6** 
+* Remove turborepo as pnpm improved recursive features
+* Improve SSR remdering (set vfjsOptions.ssrInit: true)
+* Adjust workaround to allow component objects (PR #1 by ax-jstern)
+
+## Initial changes
 
 * Update **vite 2** to **vite 3**
 * Replace webpack with **vite**
@@ -30,11 +39,9 @@ Build all packages (lib and examples)
 
 ...
 
-### Current issues
-- [ ] Form rendering on server (SSR) - currently only the outer tag is rendered
-- [ ] Improve turborepo config
-
 ### Solved issues
+- [X] Form rendering on server (SSR) - currently only the outer tag is rendered
+- [X] Improve turborepo config
 - [X] Solve Ajv strictTypes console log message
 - [X] Make example 4 working
 - [x] Bug with required fields (switch case was not null safe) 
