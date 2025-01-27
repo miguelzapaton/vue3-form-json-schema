@@ -55,12 +55,14 @@ const uiSchema = [
   {
     component: 'o-input',
     model: 'allprops.user.firstName',
+    valueProp: 'model-value',
     fieldOptions: {
       class: ['form-control'],
       on: ['input'],
       props: {
         type: 'textarea',
         placeholder: 'I am the o-input component from Oruga!',
+        debounce: 0   // default is 400
       },
     },
     errorOptions: {
@@ -72,12 +74,14 @@ const uiSchema = [
   {
     component: 'o-input',
     model: 'allprops.user.lastName',
+    valueProp: 'model-value',
     fieldOptions: {
       class: ['form-control'],
       on: ['input'],
       props: {
         type: 'text',
         placeholder: 'I am the o-input component from Oruga!',
+        debounce: 0   // default is 400
   },
     },
     }
