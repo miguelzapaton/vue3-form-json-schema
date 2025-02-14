@@ -7,8 +7,8 @@
     "build:lib": "pnpm build --filter lib"
   },
   "devDependencies": {
-    "eslint": "^9.19.0",
-    "prettier": "^3.4.2"
+    "eslint": "^9.20.1",
+    "prettier": "^3.5.1"
   },
   "packageManager": "pnpm@10.0.0"
 }
